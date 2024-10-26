@@ -1,0 +1,75 @@
+.contaner{
+  border:  5px solid rgb(0, 58, 193);
+  width: 45%;
+}
+.main{
+  width: 100%;
+  height: 50px;
+}
+h2{
+  font-size: 30px;
+}
+p{
+  font-size: 40px;
+}
+.main img{
+border-radius: 50%;
+width: 8%;
+height: 50px;
+}
+.main div{
+width: 30%;
+height: 90px;
+margin-left: 50px;
+margin-top: -70px;
+}
+.main div p{
+  margin-top: -20px;
+  font-size: 13px;
+}
+.icon{
+margin-left: 350px;
+width: 7%;
+font-size: 30px;
+position: absolute;
+margin-top: -90px;
+}
+.para{
+  font-size: 20px;
+  margin-left: 10px;
+}
+.poster{
+  width: 100%;
+}
+.therdDiv{
+margin-top: -7px;
+}
+.therdDiv p{
+  font-size: 11px;
+}
+.therdDiv div{
+  display: flex;
+  align-items: center;
+  
+
+}
+.therdDiv div p{
+  margin-left: 10px;
+}
+.comments{  
+  width: 20%;
+  margin-left: 350px;
+  margin-top: -23px;
+}
+#Like{
+font-size: 40px;
+}
+.like{
+  font-size: 40px;
+
+}
+.lastDiv{
+display: flex;
+justify-content: space-between;
+font-size: 50px;
+}
