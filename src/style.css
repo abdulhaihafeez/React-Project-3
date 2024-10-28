@@ -1,75 +1,62 @@
-.contaner{
-  border:  5px solid rgb(0, 58, 193);
-  width: 45%;
+body{
+  background-image: linear-gradient(to right, rgb(251, 75, 0) , rgb(249, 249, 21));
 }
-.main{
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+ 
+}
+
+.post-container {
+  border: 6px solid rgb(0, 0, 0);
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+   
+}
+h3{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.post-container > p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 800;
+    color: rgb(45, 45, 45);
+}
+.post-photo {
   width: 100%;
-  height: 50px;
 }
-h2{
+.dp {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-size: 30px;
 }
-p{
-  font-size: 40px;
-}
-.main img{
-border-radius: 50%;
-width: 8%;
-height: 50px;
-}
-.main div{
-width: 30%;
-height: 90px;
-margin-left: 50px;
-margin-top: -70px;
-}
-.main div p{
-  margin-top: -20px;
-  font-size: 13px;
-}
-.icon{
-margin-left: 350px;
-width: 7%;
-font-size: 30px;
-position: absolute;
-margin-top: -90px;
-}
-.para{
-  font-size: 20px;
-  margin-left: 10px;
-}
-.poster{
-  width: 100%;
-}
-.therdDiv{
-margin-top: -7px;
-}
-.therdDiv p{
-  font-size: 11px;
-}
-.therdDiv div{
+.post-user-detail {
   display: flex;
   align-items: center;
-  
+  gap: 20px;
+  font-size: 16px;
+}
+#footer{
+  display: flex;
+  justify-content: space-between;
+  font-size: 38px;
+  color: rgb(43, 43, 43);
+}
+.comment{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
 
-}
-.therdDiv div p{
-  margin-left: 10px;
-}
-.comments{  
-  width: 20%;
-  margin-left: 350px;
-  margin-top: -23px;
-}
-#Like{
-font-size: 40px;
-}
-.like{
-  font-size: 40px;
-
-}
-.lastDiv{
-display: flex;
-justify-content: space-between;
-font-size: 50px;
-}
