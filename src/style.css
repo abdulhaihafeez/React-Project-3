@@ -1,5 +1,5 @@
 body{
-  background-image: linear-gradient(to right, rgb(251, 75, 0) , rgb(249, 249, 21));
+  background-image: linear-gradient(to right, rgb(255, 0, 0),rgb(255, 132, 0),rgb(251, 251, 67));
 }
 * {
   margin: 0;
@@ -10,6 +10,7 @@ body{
 
 .post-container {
   border: 6px solid rgb(0, 0, 0);
+  border-radius: 20px;
   width: 500px;
   margin: auto;
   padding: 20px;
@@ -19,6 +20,7 @@ h3{
   font-size: 25px;
   font-weight: bold;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(255, 255, 255);
 }
 .post-container > p{
     margin-top: 20px;
@@ -47,16 +49,22 @@ h3{
   align-items: center;
   gap: 20px;
   font-size: 16px;
+  font-weight: 800;
 }
 #footer{
   display: flex;
   justify-content: space-between;
   font-size: 38px;
   color: rgb(43, 43, 43);
+  
+}
+#likeCheckbox:checked + label #footer {
+  color: blue;
 }
 .comment{
   display: flex;
   justify-content: space-between;
   font-size: 20px;
+  font-weight: 600;
 }
 

@@ -63,6 +63,7 @@ function Post(Props) {
         <p>Comment</p>
         <p>Share</p>
       </div>
+       
     </div>
   );
 }
