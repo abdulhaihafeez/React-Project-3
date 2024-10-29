@@ -30,7 +30,7 @@ function Post(Props) {
           />
           <div>
             <h3>{Props.name}</h3>
-            <span>20 min ago</span>
+            <span>{Props.minutes}</span>
           </div>
         </div>
         <SlOptions />
@@ -73,41 +73,49 @@ function App() {
     <div style={{ display: "flex", gap: "20px", flexDirection: "column" }}>
       <Post
         name="Abdul Hai"
+        minutes="20 min ago"
         postImage={foodmenu}
         profilePhoto={Photo1}
       />
       <Post
-        name="Moiz"
+        name="Moiz" 
+        minutes="15 min ago"
         postImage={facebook}
         profilePhoto={Photo2}
       />
       <Post
         name="Abdul Sami"
+        minutes="10 min ago"
          postImage={foodimage}
         profilePhoto={Photo3}
       />
       <Post
         name="Subhan"
+        minutes="25 min ago"
         postImage={treeimage}
         profilePhoto={Photo4}
       />
       <Post
         name="Haseeb"
+        minutes="20 min ago"
         postImage={resturantmenu}
         profilePhoto="https://heroshotphotography.com/wp-content/uploads/2023/03/male-linkedin-corporate-headshot-on-white-square-1024x1024.jpg"
       />
       <Post
         name="Shahab"
+        minutes="30 min ago"
         postImage={treeimage}
         profilePhoto={Photo2}
       />
       <Post
         name="shokat"
+        minutes="15 min ago"
         postImage={foodmenu}
         profilePhoto={Photo3}
       />
       <Post
         name="shayan"
+        minutes="25 min ago"
         postImage={foodimage}
         profilePhoto={Photo4}
       />
